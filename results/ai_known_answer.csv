@@ -1,0 +1,36 @@
+report,scope,rules,model,missed_by_model,added_by_model
+hapag,own,12,12,,
+hapag,direct,12,12,,
+hapag,indirect,12,12,,
+dbservices,own,6,6,,
+dbservices,direct,2,2,,
+uestra,own,6,6,,
+uestra,direct,3,2,health_safety,
+fraport,own,0,0,,
+fraport,direct,0,6,,adequate_wage child_labour discrimination forced_labour freedom_of_association health_safety
+dbvertrieb,own,3,4,,adequate_wage
+dbvertrieb,direct,12,12,,
+mahle,own,0,11,,adequate_wage child_labour discrimination environmental_harm forced_labour freedom_of_association hazardous_waste health_safety land_rights mercury persistent_pollutants
+mahle,direct,11,11,,
+bosch,own,12,12,,
+bosch,direct,13,12,other,
+bosch,indirect,1,1,,
+daimlertruck,own,2,3,,adequate_wage
+daimlertruck,direct,6,6,,
+daimlertruck,indirect,3,3,,
+siemensmobility,own,7,7,,
+siemensmobility,direct,11,11,,
+fraunhofer,own,0,4,,child_labour environmental_harm forced_labour freedom_of_association
+fraunhofer,direct,4,4,,
+kik,own,2,2,other,adequate_wage
+kik,direct,8,8,,
+kik,indirect,8,8,,
+nkd,own,0,7,,adequate_wage child_labour discrimination environmental_harm forced_labour freedom_of_association health_safety
+nkd,direct,7,7,,
+nkd,indirect,7,7,,
+zalando,own,0,12,,adequate_wage child_labour discrimination environmental_harm forced_labour freedom_of_association hazardous_waste health_safety land_rights mercury persistent_pollutants security_forces
+zalando,direct,12,12,,
+zalando,indirect,7,7,,
+pg,own,1,1,,
+pg,direct,4,4,,
+pg,indirect,8,8,,

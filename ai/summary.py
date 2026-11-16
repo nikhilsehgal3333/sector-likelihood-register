@@ -54,6 +54,20 @@ def stage_a() -> str:
     ])
 
 
+def copied(empty: list[dict]) -> int:
+    """Number of empty lists where the model returned the risk set of another scope."""
+    by_scope = defaultdict(set)
+    for r in csv.DictReader(open(OUT / "ai_stage_a.csv", encoding="utf-8")):
+        if r["status"] == "identified":
+            by_scope[(r["report"], r["scope"])].add(r["risk"])
+    count = 0
+    for r in empty:
+        added = set(r["added_by_model"].split())
+        count += any(added == risks for (report, scope), risks in by_scope.items()
+                     if report == r["report"] and scope != r["scope"])
+    return count
+
+
 def stage_b() -> str:
     parts = ["## B. Local language model"]
     known = OUT / "ai_known_answer.json"
@@ -70,26 +84,56 @@ def stage_b() -> str:
             f"{k['model_missed']} and added {k['model_added']} that are not in the list "
             f"(precision {k['precision']}, recall {k['recall']}). {k['lists_identical']} of "
             f"{k['lists']} lists are identical to the rules.")
-    if free.exists():
-        f = json.loads(free.read_text(encoding="utf-8"))
+        diff = [r for r in csv.DictReader(open(OUT / "ai_known_answer.csv", encoding="utf-8"))
+                if r["missed_by_model"] or r["added_by_model"]]
+        empty = [r for r in diff if r["rules"] == "0"]
+        parts.append(
+            f"- The author compared the {len(diff)} lists that differ with the report text. The "
+            "rules were correct in each of them."
+            f"\n- In {len(empty)} of these {len(diff)} lists the company answered \"Keine\" "
+            f"(none). {sum(len(r['added_by_model'].split()) for r in empty)} of the "
+            f"{k['model_added']} added entries come from these lists. In {copied(empty)} of the "
+            f"{len(empty)} lists the model gave exactly the risks that the company lists for a "
+            "different scope."
+            "\n- Reading: where the layout is fixed, rules are more reliable than this model. The "
+            "typical error of the model is not an invented risk. It is a real risk in the wrong "
+            "place.")
+    labels = {"ai_free_text.json": "First design: one call gives the group, the NACE division "
+                                   "and the quotation",
+              "ai_free_text_v2.json": "Second design: one call extracts, a second call selects "
+                                      "the NACE division only for a group that is in the text"}
+    shown = False
+    for name, label in labels.items():
+        if not (OUT / name).exists():
+            continue
+        f = json.loads((OUT / name).read_text(encoding="utf-8"))
+        if not shown:
+            parts.append(
+                f"**Free text.** {f['passages']} descriptions of prioritised risks. The model "
+                "names the industry, supplier group, product group, raw material or activity "
+                "that the company connects to the risk, selects a NACE division and gives a "
+                "quotation. A program tests if the quotation and the group are in the "
+                "description word for word. Each design runs with German and with English "
+                "instructions.")
+            shown = True
         rows = []
         for lang, s in f["per_prompt"].items():
             rows.append([lang, s["n"], f"{s['quote_ok']} ({100 * s['quote_ok'] / s['n']:.0f}%)",
                          s["group_given"], s["group_ok"], s["concrete"]])
         a = f["agreement_between_prompts"]
-        parts.append(
-            f"**Free text.** {f['passages']} descriptions of prioritised risks. The model names "
-            "the supplier group or activity, selects a NACE division and gives a quotation. A "
-            "program tests if the quotation and the group are in the description word for word.")
-        parts.append(table(["Prompt language", "Descriptions", "Quotation found word for word",
+        parts.append(f"*{label}.*")
+        parts.append(table(["Instructions", "Descriptions", "Quotation found word for word",
                             "Group named", "Group found word for word", "Rated concrete"], rows))
         parts.append(
-            f"- Agreement between the German and the English prompt on {a['n']} descriptions: "
-            f"group named or not {a['group_given']}, NACE division {a['nace']}, concrete or not "
-            f"{a['concrete']}, all three {a['all']}.")
+            f"- Agreement between the two instructions on {a['n']} descriptions: group given or "
+            f"not {a['group_given']}, NACE division {a['nace']}, concrete or not {a['concrete']}, "
+            f"all three {a['all']}.")
+    if shown:
+        parts.append("- The second design was made after the results of the first design were "
+                     "known, on the same texts. Its results are not an independent test.")
         parts.append("- A quotation that is in the text shows that the model did not invent the "
-                     "evidence. It does not show that the NACE division is correct. That needs a "
-                     "check by a person.")
+                     "evidence. It does not show that the group or the NACE division is correct. "
+                     "That needs a check by a person. This check is not done yet.")
     return "\n\n".join(parts)
 
 

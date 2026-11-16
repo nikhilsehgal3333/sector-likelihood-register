@@ -1,0 +1,27 @@
+{
+ "model": "models/Qwen2.5-7B-Instruct-Q4_K_M.gguf",
+ "passages": 66,
+ "per_prompt": {
+  "de": {
+   "n": 66,
+   "quote_ok": 64,
+   "group_given": 36,
+   "group_ok": 2,
+   "concrete": 46
+  },
+  "en": {
+   "n": 66,
+   "quote_ok": 64,
+   "group_given": 49,
+   "group_ok": 12,
+   "concrete": 48
+  }
+ },
+ "agreement_between_prompts": {
+  "n": 66,
+  "group_given": 53,
+  "nace": 51,
+  "concrete": 58,
+  "all": 35
+ }
+}

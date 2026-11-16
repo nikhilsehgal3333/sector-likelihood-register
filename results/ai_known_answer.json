@@ -1,0 +1,11 @@
+{
+ "model": "models/Qwen2.5-7B-Instruct-Q4_K_M.gguf",
+ "lists": 35,
+ "lists_identical": 25,
+ "risks_by_rules": 202,
+ "model_correct": 199,
+ "model_missed": 3,
+ "model_added": 43,
+ "precision": 0.822,
+ "recall": 0.985
+}

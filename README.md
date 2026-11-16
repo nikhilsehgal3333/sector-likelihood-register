@@ -1,6 +1,6 @@
 # Sector likelihood register: what does a 1-10 "probability" mean?
 
-**Status: working draft, version 0.2 (16 November 2026).**
+**Status: working draft, version 0.3 (16 November 2026).**
 
 This is an independent study by Nikhil Sehgal. It is not a product of Catena-X, BMW Group or Ulm
 University, and it uses public data only.
@@ -70,13 +70,27 @@ SHA-256 values of the files and the extracted entries. Results: [`results/AI_RES
   questions and fixed risk names. `ai/bafa.py` reads these fields without a language model: the
   risks identified, the risks prioritised, the description of the company and the countries, each
   with a page number. Result: 280 entries from 14 reports.
-- **Stage B, local language model.** A model with open weights runs on the local machine, so no
-  report text leaves the machine and no API key is necessary. It has two tasks. In the known-answer
-  test it reads lists that stage A already read, which gives a measured error rate. In the free-text
-  task it names the supplier group or activity that a company connects to a risk, selects a NACE
-  division and gives a quotation. A program tests if the quotation is in the report word for word.
-  The task runs with a German and an English prompt to measure the effect of the prompt.
-  **Stage B is written but its results are not in this version.**
+- **Stage B, local language model.** A model with open weights (Qwen2.5 7B Instruct, 4-bit, run
+  with llama.cpp on a laptop CPU) reads the text. No report text leaves the machine and no API key
+  is necessary. A program tests each quotation word for word against the report.
+  - *Known-answer test.* The model read 35 lists that stage A already read. It found 199 of 202
+    risk entries and added 43 that are not in the lists. 40 of the 43 come from 5 lists where the
+    company answered "Keine" (none). In 4 of these 5 lists the model gave the risks that the
+    company lists for a different scope. The rules were correct in all 10 lists that differ.
+  - *Free text, first design (one call).* The quotation was in the text in 64 of 66 descriptions.
+    The supplier group that the model named was in the text in only 2 of 36 cases with German
+    instructions and 12 of 49 with English instructions. The two instructions agreed on all
+    outputs in 35 of 66 descriptions.
+  - *Free text, second design (extract, then code).* The group was in the text in 17 of 21 cases
+    (German) and 12 of 24 (English). Agreement between the instructions: 46 of 66. Many of the
+    groups are general words such as "Zulieferer", and some NACE divisions are clearly wrong. This
+    design was made after the first results were known, so it is not an independent test.
+
+Reading of the author: rules are more reliable than this model where the layout is fixed. The
+typical error of the model is a real risk in the wrong place, not an invented risk. The
+word-for-word test finds unsupported output without a person. It does not show that a NACE division
+is correct. A person must check that, and this check is not done yet. Most descriptions name no
+sector, so these reports are a thin source for sector evidence.
 
 The count of entries per company runs from 0 to 36. This agrees with the warning of Weber (2026):
 a count of mentions shows how companies report, not how often a violation occurs.
@@ -86,7 +100,8 @@ py -m pip install -r ai/requirements.txt
 py ai/fetch_corpus.py <folder>     # download the reports, extract the text
 py ai/stage_a.py <folder>          # rules
 py ai/stage_b.py known <folder>    # model, known-answer test (needs a local model server)
-py ai/stage_b.py free <folder>     # model, free text
+py ai/stage_b.py free <folder>     # model, free text, first design
+py ai/stage_b2.py <folder>         # model, free text, second design
 py ai/summary.py
 ```
 
@@ -108,7 +123,7 @@ proposal of this study. It is not a standard, and E4 shows how the points move i
   the score is correct.
 - **Text pipeline: small sample.** 14 reports of large German companies for one year. The NACE
   division of each company is assigned by the author. No person has checked the output of the
-  model yet.
+  model yet. One small model was tested. A larger model can give different results.
 - **Likelihood only.** Severity is a separate dimension and is not scored here.
 
 ## Run it
