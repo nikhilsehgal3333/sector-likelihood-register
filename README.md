@@ -32,8 +32,8 @@ and Weber 2026). Nobody at Catena-X, BMW Group or Ulm University confirmed it.
    size?
 
 The code tests questions 1, 2 and 4 on the one protected right for which public rates per NACE
-division exist: occupational health and safety (Eurostat accidents at work). Question 3 has no code
-yet.
+division exist: occupational health and safety (Eurostat accidents at work). For question 3, the
+folder `ai/` holds a text pipeline for public company reports. See "Text pipeline" below.
 
 ## Results
 
@@ -60,6 +60,36 @@ Reading of the results (analysis of the author, not a proven finding):
 4. Country factor times sector factor is a useful first model. It is not sufficient for all
    country-sector pairs, so a register needs a rule for exceptions.
 
+## Text pipeline (question 3)
+
+Source: public reports for 2023 under the German Supply Chain Due Diligence Act (LkSG), listed in
+`ai/corpus.csv`. The reports stay with the companies. This repository holds only the addresses, the
+SHA-256 values of the files and the extracted entries. Results: [`results/AI_RESULTS.md`](results/AI_RESULTS.md).
+
+- **Stage A, rules only.** Most reports use the questionnaire of the authority (BAFA), with fixed
+  questions and fixed risk names. `ai/bafa.py` reads these fields without a language model: the
+  risks identified, the risks prioritised, the description of the company and the countries, each
+  with a page number. Result: 280 entries from 14 reports.
+- **Stage B, local language model.** A model with open weights runs on the local machine, so no
+  report text leaves the machine and no API key is necessary. It has two tasks. In the known-answer
+  test it reads lists that stage A already read, which gives a measured error rate. In the free-text
+  task it names the supplier group or activity that a company connects to a risk, selects a NACE
+  division and gives a quotation. A program tests if the quotation is in the report word for word.
+  The task runs with a German and an English prompt to measure the effect of the prompt.
+  **Stage B is written but its results are not in this version.**
+
+The count of entries per company runs from 0 to 36. This agrees with the warning of Weber (2026):
+a count of mentions shows how companies report, not how often a violation occurs.
+
+```
+py -m pip install -r ai/requirements.txt
+py ai/fetch_corpus.py <folder>     # download the reports, extract the text
+py ai/stage_a.py <folder>          # rules
+py ai/stage_b.py known <folder>    # model, known-answer test (needs a local model server)
+py ai/stage_b.py free <folder>     # model, free text
+py ai/summary.py
+```
+
 ## The scale used here
 
 `register/scales.py` holds a fixed logarithmic scale. Each point is about 3 times the point below:
@@ -76,8 +106,9 @@ proposal of this study. It is not a standard, and E4 shows how the points move i
   Four divisions show a rate of 0 in 2024.
 - **Stability is not validity.** E3 shows that the score is stable over time. It does not show that
   the score is correct.
-- **No AI component yet.** The study plan includes a text pipeline that extracts and codes evidence
-  for rights without statistics. This repository has no such code and makes no claim about it.
+- **Text pipeline: small sample.** 14 reports of large German companies for one year. The NACE
+  division of each company is assigned by the author. No person has checked the output of the
+  model yet.
 - **Likelihood only.** Severity is a separate dimension and is not scored here.
 
 ## Run it

@@ -1,0 +1,281 @@
+report,company,nace,scope,status,risk,page,countries,has_description
+hapag,Hapag-Lloyd AG,H50,own,identified,security_forces,8,,
+hapag,Hapag-Lloyd AG,H50,own,identified,health_safety,8,,
+hapag,Hapag-Lloyd AG,H50,own,identified,environmental_harm,8,,
+hapag,Hapag-Lloyd AG,H50,own,identified,freedom_of_association,8,,
+hapag,Hapag-Lloyd AG,H50,own,identified,land_rights,8,,
+hapag,Hapag-Lloyd AG,H50,own,identified,forced_labour,8,,
+hapag,Hapag-Lloyd AG,H50,own,identified,discrimination,8,,
+hapag,Hapag-Lloyd AG,H50,own,identified,child_labour,8,,
+hapag,Hapag-Lloyd AG,H50,own,identified,adequate_wage,8,,
+hapag,Hapag-Lloyd AG,H50,own,identified,persistent_pollutants,8,,
+hapag,Hapag-Lloyd AG,H50,own,identified,hazardous_waste,8,,
+hapag,Hapag-Lloyd AG,H50,own,identified,mercury,8,,
+hapag,Hapag-Lloyd AG,H50,direct,identified,security_forces,9,,
+hapag,Hapag-Lloyd AG,H50,direct,identified,health_safety,9,,
+hapag,Hapag-Lloyd AG,H50,direct,identified,environmental_harm,9,,
+hapag,Hapag-Lloyd AG,H50,direct,identified,freedom_of_association,9,,
+hapag,Hapag-Lloyd AG,H50,direct,identified,land_rights,9,,
+hapag,Hapag-Lloyd AG,H50,direct,identified,forced_labour,9,,
+hapag,Hapag-Lloyd AG,H50,direct,identified,discrimination,9,,
+hapag,Hapag-Lloyd AG,H50,direct,identified,child_labour,9,,
+hapag,Hapag-Lloyd AG,H50,direct,identified,adequate_wage,9,,
+hapag,Hapag-Lloyd AG,H50,direct,identified,persistent_pollutants,9,,
+hapag,Hapag-Lloyd AG,H50,direct,identified,hazardous_waste,9,,
+hapag,Hapag-Lloyd AG,H50,direct,identified,mercury,9,,
+hapag,Hapag-Lloyd AG,H50,indirect,identified,security_forces,9,,
+hapag,Hapag-Lloyd AG,H50,indirect,identified,health_safety,9,,
+hapag,Hapag-Lloyd AG,H50,indirect,identified,environmental_harm,9,,
+hapag,Hapag-Lloyd AG,H50,indirect,identified,freedom_of_association,9,,
+hapag,Hapag-Lloyd AG,H50,indirect,identified,land_rights,9,,
+hapag,Hapag-Lloyd AG,H50,indirect,identified,forced_labour,9,,
+hapag,Hapag-Lloyd AG,H50,indirect,identified,discrimination,9,,
+hapag,Hapag-Lloyd AG,H50,indirect,identified,child_labour,9,,
+hapag,Hapag-Lloyd AG,H50,indirect,identified,adequate_wage,9,,
+hapag,Hapag-Lloyd AG,H50,indirect,identified,persistent_pollutants,9,,
+hapag,Hapag-Lloyd AG,H50,indirect,identified,hazardous_waste,9,,
+hapag,Hapag-Lloyd AG,H50,indirect,identified,mercury,9,,
+hapag,Hapag-Lloyd AG,H50,own,prioritised,health_safety,11,• Deutschland,yes
+hapag,Hapag-Lloyd AG,H50,own,prioritised,discrimination,11,• Deutschland,yes
+hapag,Hapag-Lloyd AG,H50,direct,prioritised,health_safety,15,"“ wurde daher stellvertretend mit den; Standorten der zentralen Regionalbüros für Asien (Singapur), Lateinamerika (Chile) und Mittlerer; Osten & Afrika (Vereinigte Arabische Emirate) beantwortet.; Wo tritt das Risiko auf?; • Chile; • Singapur; • Vereinigte Arabische Emirate",yes
+hapag,Hapag-Lloyd AG,H50,indirect,prioritised,health_safety,17,“ wurde daher hilfsweise Deutschland ausgewählt.; Wo tritt das Risiko auf?; • Deutschland,yes
+dbservices,DB Services GmbH,N81,own,identified,health_safety,15,,
+dbservices,DB Services GmbH,N81,own,identified,environmental_harm,15,,
+dbservices,DB Services GmbH,N81,own,identified,land_rights,15,,
+dbservices,DB Services GmbH,N81,own,identified,forced_labour,15,,
+dbservices,DB Services GmbH,N81,own,identified,adequate_wage,15,,
+dbservices,DB Services GmbH,N81,own,identified,persistent_pollutants,15,,
+dbservices,DB Services GmbH,N81,direct,identified,health_safety,16,,
+dbservices,DB Services GmbH,N81,direct,identified,adequate_wage,16,,
+dbservices,DB Services GmbH,N81,own,prioritised,health_safety,19,Deutschland,yes
+dbservices,DB Services GmbH,N81,own,prioritised,environmental_harm,19,Deutschland,yes
+dbservices,DB Services GmbH,N81,own,prioritised,forced_labour,19,Deutschland,yes
+dbservices,DB Services GmbH,N81,own,prioritised,adequate_wage,20,Deutschland,yes
+dbservices,DB Services GmbH,N81,direct,prioritised,health_safety,23,Deutschland,yes
+dbservices,DB Services GmbH,N81,direct,prioritised,adequate_wage,23,Deutschland,yes
+uestra,UESTRA Hannoversche Verkehrsbetriebe AG,H49,own,identified,security_forces,12,,
+uestra,UESTRA Hannoversche Verkehrsbetriebe AG,H49,own,identified,health_safety,12,,
+uestra,UESTRA Hannoversche Verkehrsbetriebe AG,H49,own,identified,environmental_harm,12,,
+uestra,UESTRA Hannoversche Verkehrsbetriebe AG,H49,own,identified,discrimination,12,,
+uestra,UESTRA Hannoversche Verkehrsbetriebe AG,H49,own,identified,adequate_wage,12,,
+uestra,UESTRA Hannoversche Verkehrsbetriebe AG,H49,own,identified,other,12,,
+uestra,UESTRA Hannoversche Verkehrsbetriebe AG,H49,direct,identified,health_safety,13,,
+uestra,UESTRA Hannoversche Verkehrsbetriebe AG,H49,direct,identified,environmental_harm,13,,
+uestra,UESTRA Hannoversche Verkehrsbetriebe AG,H49,direct,identified,child_labour,13,,
+uestra,UESTRA Hannoversche Verkehrsbetriebe AG,H49,own,prioritised,health_safety,15,Deutschland,yes
+uestra,UESTRA Hannoversche Verkehrsbetriebe AG,H49,direct,prioritised,none_stated,,,
+fraport,Fraport AG,H52,direct,prioritised,none_stated,,,
+fraport,Fraport AG,H52,own,prioritised,none_stated,,,
+dbvertrieb,DB Vertrieb GmbH,H49,own,identified,security_forces,14,,
+dbvertrieb,DB Vertrieb GmbH,H49,own,identified,environmental_harm,14,,
+dbvertrieb,DB Vertrieb GmbH,H49,own,identified,persistent_pollutants,14,,
+dbvertrieb,DB Vertrieb GmbH,H49,direct,identified,security_forces,15,,
+dbvertrieb,DB Vertrieb GmbH,H49,direct,identified,health_safety,15,,
+dbvertrieb,DB Vertrieb GmbH,H49,direct,identified,environmental_harm,15,,
+dbvertrieb,DB Vertrieb GmbH,H49,direct,identified,freedom_of_association,15,,
+dbvertrieb,DB Vertrieb GmbH,H49,direct,identified,land_rights,15,,
+dbvertrieb,DB Vertrieb GmbH,H49,direct,identified,forced_labour,15,,
+dbvertrieb,DB Vertrieb GmbH,H49,direct,identified,discrimination,15,,
+dbvertrieb,DB Vertrieb GmbH,H49,direct,identified,child_labour,15,,
+dbvertrieb,DB Vertrieb GmbH,H49,direct,identified,adequate_wage,15,,
+dbvertrieb,DB Vertrieb GmbH,H49,direct,identified,persistent_pollutants,15,,
+dbvertrieb,DB Vertrieb GmbH,H49,direct,identified,hazardous_waste,15,,
+dbvertrieb,DB Vertrieb GmbH,H49,direct,identified,mercury,15,,
+dbvertrieb,DB Vertrieb GmbH,H49,own,prioritised,discrimination,18,Deutschland,yes
+dbvertrieb,DB Vertrieb GmbH,H49,direct,prioritised,health_safety,21,Deutschland,yes
+dbvertrieb,DB Vertrieb GmbH,H49,direct,prioritised,environmental_harm,21,Deutschland; Japan; Vereinigte Staaten (USA),yes
+dbvertrieb,DB Vertrieb GmbH,H49,direct,prioritised,discrimination,21,Deutschland; Irland; Schweiz; Vereinigte Staaten (USA); Vereinigtes Königreich (Großbritannien und Nordirland),yes
+mahle,MAHLE GmbH,C29,direct,identified,health_safety,14,,
+mahle,MAHLE GmbH,C29,direct,identified,environmental_harm,14,,
+mahle,MAHLE GmbH,C29,direct,identified,freedom_of_association,14,,
+mahle,MAHLE GmbH,C29,direct,identified,land_rights,14,,
+mahle,MAHLE GmbH,C29,direct,identified,forced_labour,14,,
+mahle,MAHLE GmbH,C29,direct,identified,discrimination,14,,
+mahle,MAHLE GmbH,C29,direct,identified,child_labour,14,,
+mahle,MAHLE GmbH,C29,direct,identified,adequate_wage,14,,
+mahle,MAHLE GmbH,C29,direct,identified,persistent_pollutants,14,,
+mahle,MAHLE GmbH,C29,direct,identified,hazardous_waste,14,,
+mahle,MAHLE GmbH,C29,direct,identified,mercury,14,,
+mahle,MAHLE GmbH,C29,direct,prioritised,none_stated,,,
+mahle,MAHLE GmbH,C29,own,prioritised,none_stated,,,
+bosch,Robert Bosch GmbH,C29,own,identified,security_forces,17,,
+bosch,Robert Bosch GmbH,C29,own,identified,health_safety,17,,
+bosch,Robert Bosch GmbH,C29,own,identified,environmental_harm,17,,
+bosch,Robert Bosch GmbH,C29,own,identified,freedom_of_association,17,,
+bosch,Robert Bosch GmbH,C29,own,identified,land_rights,17,,
+bosch,Robert Bosch GmbH,C29,own,identified,forced_labour,17,,
+bosch,Robert Bosch GmbH,C29,own,identified,discrimination,17,,
+bosch,Robert Bosch GmbH,C29,own,identified,child_labour,17,,
+bosch,Robert Bosch GmbH,C29,own,identified,adequate_wage,17,,
+bosch,Robert Bosch GmbH,C29,own,identified,persistent_pollutants,17,,
+bosch,Robert Bosch GmbH,C29,own,identified,hazardous_waste,17,,
+bosch,Robert Bosch GmbH,C29,own,identified,mercury,17,,
+bosch,Robert Bosch GmbH,C29,direct,identified,security_forces,18,,
+bosch,Robert Bosch GmbH,C29,direct,identified,health_safety,18,,
+bosch,Robert Bosch GmbH,C29,direct,identified,environmental_harm,18,,
+bosch,Robert Bosch GmbH,C29,direct,identified,freedom_of_association,18,,
+bosch,Robert Bosch GmbH,C29,direct,identified,land_rights,18,,
+bosch,Robert Bosch GmbH,C29,direct,identified,forced_labour,18,,
+bosch,Robert Bosch GmbH,C29,direct,identified,discrimination,18,,
+bosch,Robert Bosch GmbH,C29,direct,identified,child_labour,18,,
+bosch,Robert Bosch GmbH,C29,direct,identified,adequate_wage,18,,
+bosch,Robert Bosch GmbH,C29,direct,identified,other,18,,
+bosch,Robert Bosch GmbH,C29,direct,identified,persistent_pollutants,18,,
+bosch,Robert Bosch GmbH,C29,direct,identified,hazardous_waste,18,,
+bosch,Robert Bosch GmbH,C29,direct,identified,mercury,18,,
+bosch,Robert Bosch GmbH,C29,indirect,identified,other,19,,
+bosch,Robert Bosch GmbH,C29,own,prioritised,forced_labour,21,China; Malaysia; Taiwan,yes
+bosch,Robert Bosch GmbH,C29,direct,prioritised,forced_labour,25,China; Malaysia; Taiwan,yes
+bosch,Robert Bosch GmbH,C29,indirect,prioritised,none_stated,,,
+daimlertruck,Daimler Truck AG,C29,own,identified,health_safety,15,,
+daimlertruck,Daimler Truck AG,C29,own,identified,discrimination,15,,
+daimlertruck,Daimler Truck AG,C29,direct,identified,security_forces,16,,
+daimlertruck,Daimler Truck AG,C29,direct,identified,health_safety,16,,
+daimlertruck,Daimler Truck AG,C29,direct,identified,environmental_harm,16,,
+daimlertruck,Daimler Truck AG,C29,direct,identified,freedom_of_association,16,,
+daimlertruck,Daimler Truck AG,C29,direct,identified,forced_labour,16,,
+daimlertruck,Daimler Truck AG,C29,direct,identified,adequate_wage,16,,
+daimlertruck,Daimler Truck AG,C29,indirect,identified,health_safety,17,,
+daimlertruck,Daimler Truck AG,C29,indirect,identified,forced_labour,17,,
+daimlertruck,Daimler Truck AG,C29,indirect,identified,adequate_wage,17,,
+daimlertruck,Daimler Truck AG,C29,own,prioritised,health_safety,20,Indien; Indonesien; Mexiko; Portugal; Vereinigte Staaten (USA),yes
+daimlertruck,Daimler Truck AG,C29,own,prioritised,discrimination,20,Deutschland; Südafrika; Vereinigte Staaten (USA),yes
+daimlertruck,Daimler Truck AG,C29,direct,prioritised,security_forces,28,China,yes
+daimlertruck,Daimler Truck AG,C29,direct,prioritised,health_safety,28,Deutschland; Vereinigte Staaten (USA),yes
+daimlertruck,Daimler Truck AG,C29,direct,prioritised,environmental_harm,29,Ungarn,yes
+daimlertruck,Daimler Truck AG,C29,direct,prioritised,freedom_of_association,29,China; Mexiko; Türkei,yes
+daimlertruck,Daimler Truck AG,C29,direct,prioritised,forced_labour,29,China,yes
+daimlertruck,Daimler Truck AG,C29,direct,prioritised,adequate_wage,30,Deutschland,yes
+daimlertruck,Daimler Truck AG,C29,indirect,prioritised,health_safety,35,Polen; Türkei,yes
+daimlertruck,Daimler Truck AG,C29,indirect,prioritised,forced_labour,35,China,yes
+daimlertruck,Daimler Truck AG,C29,indirect,prioritised,adequate_wage,35,Polen,yes
+siemensmobility,Siemens Mobility GmbH,C30,own,identified,security_forces,15,,
+siemensmobility,Siemens Mobility GmbH,C30,own,identified,health_safety,15,,
+siemensmobility,Siemens Mobility GmbH,C30,own,identified,environmental_harm,15,,
+siemensmobility,Siemens Mobility GmbH,C30,own,identified,freedom_of_association,15,,
+siemensmobility,Siemens Mobility GmbH,C30,own,identified,discrimination,15,,
+siemensmobility,Siemens Mobility GmbH,C30,own,identified,persistent_pollutants,15,,
+siemensmobility,Siemens Mobility GmbH,C30,own,identified,hazardous_waste,15,,
+siemensmobility,Siemens Mobility GmbH,C30,direct,identified,security_forces,16,,
+siemensmobility,Siemens Mobility GmbH,C30,direct,identified,health_safety,16,,
+siemensmobility,Siemens Mobility GmbH,C30,direct,identified,environmental_harm,16,,
+siemensmobility,Siemens Mobility GmbH,C30,direct,identified,freedom_of_association,16,,
+siemensmobility,Siemens Mobility GmbH,C30,direct,identified,land_rights,16,,
+siemensmobility,Siemens Mobility GmbH,C30,direct,identified,forced_labour,16,,
+siemensmobility,Siemens Mobility GmbH,C30,direct,identified,discrimination,16,,
+siemensmobility,Siemens Mobility GmbH,C30,direct,identified,child_labour,16,,
+siemensmobility,Siemens Mobility GmbH,C30,direct,identified,adequate_wage,16,,
+siemensmobility,Siemens Mobility GmbH,C30,direct,identified,persistent_pollutants,16,,
+siemensmobility,Siemens Mobility GmbH,C30,direct,identified,hazardous_waste,16,,
+siemensmobility,Siemens Mobility GmbH,C30,direct,prioritised,none_stated,,,
+siemensmobility,Siemens Mobility GmbH,C30,own,prioritised,none_stated,,,
+fraunhofer,Fraunhofer-Gesellschaft,M72,direct,identified,environmental_harm,16,,
+fraunhofer,Fraunhofer-Gesellschaft,M72,direct,identified,freedom_of_association,16,,
+fraunhofer,Fraunhofer-Gesellschaft,M72,direct,identified,forced_labour,16,,
+fraunhofer,Fraunhofer-Gesellschaft,M72,direct,identified,child_labour,16,,
+fraunhofer,Fraunhofer-Gesellschaft,M72,direct,prioritised,environmental_harm,23,Israel; Kenia; Kuwait; Türkei; Vereinigte Arabische Emirate,yes
+fraunhofer,Fraunhofer-Gesellschaft,M72,direct,prioritised,freedom_of_association,25,China,yes
+fraunhofer,Fraunhofer-Gesellschaft,M72,direct,prioritised,forced_labour,27,China,yes
+fraunhofer,Fraunhofer-Gesellschaft,M72,direct,prioritised,child_labour,29,China; Türkei,yes
+fraunhofer,Fraunhofer-Gesellschaft,M72,own,prioritised,none_stated,,,
+kik,KiK Textilien und Non-Food GmbH,G47,own,identified,health_safety,13,,
+kik,KiK Textilien und Non-Food GmbH,G47,own,identified,other,13,,
+kik,KiK Textilien und Non-Food GmbH,G47,direct,identified,health_safety,14,,
+kik,KiK Textilien und Non-Food GmbH,G47,direct,identified,environmental_harm,14,,
+kik,KiK Textilien und Non-Food GmbH,G47,direct,identified,freedom_of_association,14,,
+kik,KiK Textilien und Non-Food GmbH,G47,direct,identified,forced_labour,14,,
+kik,KiK Textilien und Non-Food GmbH,G47,direct,identified,discrimination,14,,
+kik,KiK Textilien und Non-Food GmbH,G47,direct,identified,child_labour,14,,
+kik,KiK Textilien und Non-Food GmbH,G47,direct,identified,adequate_wage,14,,
+kik,KiK Textilien und Non-Food GmbH,G47,direct,identified,other,14,,
+kik,KiK Textilien und Non-Food GmbH,G47,indirect,identified,health_safety,15,,
+kik,KiK Textilien und Non-Food GmbH,G47,indirect,identified,environmental_harm,15,,
+kik,KiK Textilien und Non-Food GmbH,G47,indirect,identified,freedom_of_association,15,,
+kik,KiK Textilien und Non-Food GmbH,G47,indirect,identified,forced_labour,15,,
+kik,KiK Textilien und Non-Food GmbH,G47,indirect,identified,discrimination,15,,
+kik,KiK Textilien und Non-Food GmbH,G47,indirect,identified,child_labour,15,,
+kik,KiK Textilien und Non-Food GmbH,G47,indirect,identified,adequate_wage,15,,
+kik,KiK Textilien und Non-Food GmbH,G47,indirect,identified,other,15,,
+kik,KiK Textilien und Non-Food GmbH,G47,own,prioritised,health_safety,17,Bangladesch; Bulgarien; China; Deutschland; Italien; Kroatien; Niederlande; Österreich; Polen; Portugal; Rumänien; Slowakei; Slowenien; Spanien; Tschechien; Türkei; Ungarn,yes
+kik,KiK Textilien und Non-Food GmbH,G47,own,prioritised,other,17,Bangladesch; Bulgarien; China; Deutschland; Italien; Kroatien; Niederlande; Österreich; Polen; Portugal; Rumänien; Slowakei; Slowenien; Spanien; Tschechien; Türkei; Ungarn,yes
+kik,KiK Textilien und Non-Food GmbH,G47,direct,prioritised,health_safety,21,Bangladesch; China; Indien; Pakistan; Türkei,yes
+kik,KiK Textilien und Non-Food GmbH,G47,direct,prioritised,freedom_of_association,21,Bangladesch; China; Indien; Pakistan; Türkei,yes
+kik,KiK Textilien und Non-Food GmbH,G47,direct,prioritised,forced_labour,22,Bangladesch; China; Indien; Pakistan; Türkei,yes
+kik,KiK Textilien und Non-Food GmbH,G47,direct,prioritised,discrimination,22,Bangladesch; China; Indien; Pakistan; Türkei,yes
+kik,KiK Textilien und Non-Food GmbH,G47,direct,prioritised,child_labour,22,Bangladesch; China; Indien; Pakistan; Türkei,yes
+kik,KiK Textilien und Non-Food GmbH,G47,direct,prioritised,adequate_wage,23,Bangladesch; China; Indien; Pakistan; Türkei,yes
+kik,KiK Textilien und Non-Food GmbH,G47,indirect,prioritised,health_safety,26,Bangladesch; China; Indien; Pakistan; Türkei,yes
+kik,KiK Textilien und Non-Food GmbH,G47,indirect,prioritised,freedom_of_association,26,Bangladesch; China; Indien; Pakistan; Türkei,yes
+kik,KiK Textilien und Non-Food GmbH,G47,indirect,prioritised,discrimination,27,Bangladesch; China; Indien; Pakistan; Türkei,yes
+kik,KiK Textilien und Non-Food GmbH,G47,indirect,prioritised,adequate_wage,27,Bangladesch; China; Indien; Pakistan; Türkei,yes
+nkd,NKD Group GmbH,G47,direct,identified,health_safety,17,,
+nkd,NKD Group GmbH,G47,direct,identified,environmental_harm,17,,
+nkd,NKD Group GmbH,G47,direct,identified,freedom_of_association,17,,
+nkd,NKD Group GmbH,G47,direct,identified,forced_labour,17,,
+nkd,NKD Group GmbH,G47,direct,identified,discrimination,17,,
+nkd,NKD Group GmbH,G47,direct,identified,child_labour,17,,
+nkd,NKD Group GmbH,G47,direct,identified,adequate_wage,17,,
+nkd,NKD Group GmbH,G47,indirect,identified,health_safety,18,,
+nkd,NKD Group GmbH,G47,indirect,identified,environmental_harm,18,,
+nkd,NKD Group GmbH,G47,indirect,identified,freedom_of_association,18,,
+nkd,NKD Group GmbH,G47,indirect,identified,forced_labour,18,,
+nkd,NKD Group GmbH,G47,indirect,identified,discrimination,18,,
+nkd,NKD Group GmbH,G47,indirect,identified,child_labour,18,,
+nkd,NKD Group GmbH,G47,indirect,identified,adequate_wage,18,,
+nkd,NKD Group GmbH,G47,direct,prioritised,health_safety,23,Bangladesch; China; Indien; Myanmar; Pakistan; Türkei,yes
+nkd,NKD Group GmbH,G47,indirect,prioritised,health_safety,28,China,yes
+nkd,NKD Group GmbH,G47,indirect,prioritised,freedom_of_association,30,Bangladesch,yes
+nkd,NKD Group GmbH,G47,indirect,prioritised,forced_labour,32,Bangladesch; Myanmar,yes
+nkd,NKD Group GmbH,G47,indirect,prioritised,discrimination,34,Bangladesch; Türkei,yes
+nkd,NKD Group GmbH,G47,own,prioritised,none_stated,,,
+zalando,Zalando SE,G47,direct,identified,security_forces,18,,
+zalando,Zalando SE,G47,direct,identified,health_safety,18,,
+zalando,Zalando SE,G47,direct,identified,environmental_harm,18,,
+zalando,Zalando SE,G47,direct,identified,freedom_of_association,18,,
+zalando,Zalando SE,G47,direct,identified,land_rights,18,,
+zalando,Zalando SE,G47,direct,identified,forced_labour,18,,
+zalando,Zalando SE,G47,direct,identified,discrimination,18,,
+zalando,Zalando SE,G47,direct,identified,child_labour,18,,
+zalando,Zalando SE,G47,direct,identified,adequate_wage,18,,
+zalando,Zalando SE,G47,direct,identified,persistent_pollutants,18,,
+zalando,Zalando SE,G47,direct,identified,hazardous_waste,18,,
+zalando,Zalando SE,G47,direct,identified,mercury,18,,
+zalando,Zalando SE,G47,indirect,identified,health_safety,19,,
+zalando,Zalando SE,G47,indirect,identified,environmental_harm,19,,
+zalando,Zalando SE,G47,indirect,identified,freedom_of_association,19,,
+zalando,Zalando SE,G47,indirect,identified,forced_labour,19,,
+zalando,Zalando SE,G47,indirect,identified,discrimination,19,,
+zalando,Zalando SE,G47,indirect,identified,child_labour,19,,
+zalando,Zalando SE,G47,indirect,identified,adequate_wage,19,,
+zalando,Zalando SE,G47,direct,prioritised,persistent_pollutants,29,"Ägypten; Bangladesch; Belgien; China; China, Hongkong Sonderverwaltungszone; Dänemark; Deutschland; Finnland; Frankreich; Georgien; Indien; Irland; Italien; Kambodscha; Kroatien; Litauen; Luxemburg; Madagaskar; Marokko; Niederlande; Nigeria; Norwegen; Pakistan; Peru; Polen; Rumänien; Schweden; Schweiz; Singapur; Slowakei; Spanien; Tschechien; Türkei; Ungarn; Vereinigte Arabische Emirate; Vereinigte Staaten (USA); Vereinigtes Königreich (Großbritannien und Nordirland); Zypern",yes
+zalando,Zalando SE,G47,direct,prioritised,hazardous_waste,32,"Bangladesch; China; China, Hongkong Sonderverwaltungszone; Deutschland; Indien; Italien; Kambodscha; Niederlande; Nigeria; Pakistan; Polen; Schweiz; Singapur; Spanien; Türkei; Ungarn; Vereinigte Arabische Emirate; Vereinigte Staaten (USA)",yes
+zalando,Zalando SE,G47,direct,prioritised,mercury,34,"Bangladesch; China; China, Hongkong Sonderverwaltungszone; Deutschland; Indien; Italien; Kambodscha; Niederlande; Nigeria; Pakistan; Polen; Schweiz; Singapur; Spanien; Türkei; Ungarn; Vereinigte Arabische Emirate; Vereinigte Staaten (USA)",yes
+zalando,Zalando SE,G47,direct,prioritised,health_safety,36,"Ägypten; Bangladesch; Belgien; China; China, Hongkong Sonderverwaltungszone; Dänemark; Deutschland; Finnland; Frankreich; Georgien; Indien; Irland; Italien; Kambodscha; Kroatien; Litauen; Luxemburg; Madagaskar; Marokko; Niederlande; Nigeria; Norwegen; Pakistan; Peru; Polen; Rumänien; Schweden; Schweiz; Singapur; Slowakei; Spanien; Tschechien; Türkei; Ungarn; Vereinigte Arabische Emirate; Vereinigte Staaten (USA); Vereinigtes Königreich (Großbritannien und Nordirland)",yes
+zalando,Zalando SE,G47,direct,prioritised,environmental_harm,39,"Bangladesch; China; China, Hongkong Sonderverwaltungszone; Deutschland; Indien; Italien; Kambodscha; Niederlande; Nigeria; Pakistan; Polen; Schweiz; Singapur; Spanien; Türkei; Ungarn; Vereinigte Arabische Emirate; Vereinigte Staaten (USA)",yes
+zalando,Zalando SE,G47,direct,prioritised,freedom_of_association,41,"Ägypten; Bangladesch; Belgien; China; China, Hongkong Sonderverwaltungszone; Dänemark; Deutschland; Finnland; Frankreich; Georgien; Indien; Irland; Italien; Kambodscha; Kroatien; Litauen; Luxemburg; Madagaskar; Marokko; Niederlande; Nigeria; Norwegen; Pakistan; Peru; Polen; Rumänien; Schweden; Schweiz; Singapur; Slowakei; Spanien; Tschechien; Türkei; Ungarn; Vereinigte Arabische Emirate; Vereinigte Staaten (USA); Vereinigtes Königreich (Großbritannien und Nordirland); Zypern",yes
+zalando,Zalando SE,G47,direct,prioritised,forced_labour,44,"Ägypten; Bangladesch; China; China, Hongkong Sonderverwaltungszone; Deutschland; Georgien; Indien; Irland; Italien; Kambodscha; Luxemburg; Madagaskar; Marokko; Niederlande; Nigeria; Pakistan; Peru; Polen; Portugal; Schweiz; Singapur; Spanien; Türkei; Ungarn; Vereinigte Arabische Emirate; Vereinigte Staaten (USA); Vereinigtes Königreich (Großbritannien und Nordirland)",yes
+zalando,Zalando SE,G47,direct,prioritised,discrimination,46,"Ägypten; Bangladesch; Belgien; China; China, Hongkong Sonderverwaltungszone; Dänemark; Deutschland; Finnland; Frankreich; Georgien; Indien; Irland; Italien; Kambodscha; Kroatien; Litauen; Luxemburg; Madagaskar; Marokko; Niederlande; Nigeria; Norwegen; Pakistan; Peru; Polen; Rumänien; Schweden; Schweiz; Singapur; Slowakei; Spanien; Tschechien; Türkei; Ungarn; Vereinigte Arabische Emirate; Vereinigte Staaten (USA); Vereinigtes Königreich (Großbritannien und Nordirland); Zypern",yes
+zalando,Zalando SE,G47,direct,prioritised,child_labour,49,"Ägypten; Bangladesch; Belgien; China; China, Hongkong Sonderverwaltungszone; Dänemark; Deutschland; Finnland; Frankreich; Georgien; Indien; Irland; Italien; Kambodscha; Kroatien; Litauen; Luxemburg; Madagaskar; Marokko; Niederlande; Nigeria; Norwegen; Pakistan; Peru; Polen; Rumänien; Schweden; Schweiz; Singapur; Slowakei; Spanien; Tschechien; Türkei; Ungarn; Vereinigte Arabische Emirate; Vereinigte Staaten (USA); Vereinigtes Königreich (Großbritannien und Nordirland); Zypern",yes
+zalando,Zalando SE,G47,direct,prioritised,adequate_wage,52,"Ägypten; Bangladesch; Belgien; China; China, Hongkong Sonderverwaltungszone; Dänemark; Deutschland; Finnland; Frankreich; Georgien; Indien; Irland; Italien; Kambodscha; Kroatien; Litauen; Luxemburg; Madagaskar; Marokko; Niederlande; Nigeria; Norwegen; Pakistan; Peru; Polen; Rumänien; Schweden; Schweiz; Singapur; Slowenien; Spanien; Tschechien; Türkei; Ungarn; Vereinigte Arabische Emirate; Vereinigte Staaten (USA); Vereinigtes Königreich (Großbritannien und Nordirland); Zypern",yes
+zalando,Zalando SE,G47,indirect,prioritised,child_labour,57,Bangladesch; China; Indien; Türkei,yes
+zalando,Zalando SE,G47,own,prioritised,none_stated,,,
+pg,Procter & Gamble Germany Holding GmbH,C20,own,identified,health_safety,17,,
+pg,Procter & Gamble Germany Holding GmbH,C20,direct,identified,health_safety,18,,
+pg,Procter & Gamble Germany Holding GmbH,C20,direct,identified,freedom_of_association,18,,
+pg,Procter & Gamble Germany Holding GmbH,C20,direct,identified,discrimination,18,,
+pg,Procter & Gamble Germany Holding GmbH,C20,direct,identified,adequate_wage,18,,
+pg,Procter & Gamble Germany Holding GmbH,C20,indirect,identified,health_safety,19,,
+pg,Procter & Gamble Germany Holding GmbH,C20,indirect,identified,environmental_harm,19,,
+pg,Procter & Gamble Germany Holding GmbH,C20,indirect,identified,freedom_of_association,19,,
+pg,Procter & Gamble Germany Holding GmbH,C20,indirect,identified,land_rights,19,,
+pg,Procter & Gamble Germany Holding GmbH,C20,indirect,identified,forced_labour,19,,
+pg,Procter & Gamble Germany Holding GmbH,C20,indirect,identified,discrimination,19,,
+pg,Procter & Gamble Germany Holding GmbH,C20,indirect,identified,child_labour,19,,
+pg,Procter & Gamble Germany Holding GmbH,C20,indirect,identified,adequate_wage,19,,
+pg,Procter & Gamble Germany Holding GmbH,C20,direct,prioritised,health_safety,23,China; Indien,yes
+pg,Procter & Gamble Germany Holding GmbH,C20,indirect,prioritised,health_safety,29,China; Indien; Indonesien; Malaysia; Türkei,yes
+pg,Procter & Gamble Germany Holding GmbH,C20,indirect,prioritised,land_rights,31,Indonesien,yes
+pg,Procter & Gamble Germany Holding GmbH,C20,indirect,prioritised,forced_labour,33,China; Malaysia,yes
+pg,Procter & Gamble Germany Holding GmbH,C20,indirect,prioritised,child_labour,35,Indien; Indonesien; Türkei,yes
+pg,Procter & Gamble Germany Holding GmbH,C20,indirect,prioritised,adequate_wage,37,China; Indien; Malaysia,yes
+pg,Procter & Gamble Germany Holding GmbH,C20,own,prioritised,none_stated,,,
