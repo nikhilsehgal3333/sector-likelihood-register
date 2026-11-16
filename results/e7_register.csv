@@ -1,0 +1,88 @@
+nace,label,cases_2020_2024,rate_per_100k,rate_low,rate_high,point,point_low,point_high,confidence,shrunk_rate_per_100k,shrunk_point
+A01,"Crop and animal production, hunting and related service activities",1426,4.37,4.14,4.6,3,3,3,high,4.37,3
+A02,Forestry and logging,440,18.12,16.47,19.9,4,4,4,high,17.73,4
+A03,Fishing and aquaculture,106,17.2,14.08,20.8,4,4,4,high,15.89,4
+B05,Mining of coal and lignite,57,9.89,7.49,12.81,3,3,4,medium,9.87,3
+B06,Extraction of crude petroleum and natural gas,1,0.58,0.01,3.23,1,1,2,low,2.44,2
+B07,Mining of metal ores,24,11.37,7.29,16.92,4,3,4,medium,11.07,4
+B08,Other mining and quarrying,122,12.32,10.23,14.71,4,4,4,high,12.2,4
+B09,Mining support service activities,8,3.11,1.34,6.14,2,2,3,low,4.07,3
+C10,Manufacture of food products,348,1.68,1.51,1.87,2,2,2,high,1.68,2
+C11,Manufacture of beverages,33,1.54,1.06,2.16,2,2,2,medium,1.54,2
+C12,Manufacture of tobacco products,1,0.5,0.01,2.76,1,1,2,low,1.11,2
+C13,Manufacture of textiles,38,1.42,1.01,1.95,2,2,2,medium,1.44,2
+C14,Manufacture of wearing apparel,10,0.28,0.13,0.51,1,1,1,low,0.37,1
+C15,Manufacture of leather and related products,15,0.75,0.42,1.24,1,1,2,low,0.85,1
+C16,"Manufacture of wood and of products of wood and cork, except furniture; manufacture of articles of straw and plaiting materials",191,4.13,3.57,4.76,3,3,3,high,3.99,3
+C17,Manufacture of paper and paper products,39,1.24,0.88,1.69,2,1,2,medium,1.26,2
+C18,Printing and reproduction of recorded media,19,0.64,0.39,1.0,1,1,2,low,0.72,1
+C19,Manufacture of coke and refined petroleum products,17,2.7,1.57,4.32,2,2,3,low,2.35,2
+C20,Manufacture of chemicals and chemical products,95,1.53,1.24,1.87,2,2,2,medium,1.53,2
+C21,Manufacture of basic pharmaceutical products and pharmaceutical preparations,23,0.57,0.36,0.86,1,1,1,medium,0.64,1
+C22,Manufacture of rubber and plastic products,96,1.17,0.94,1.42,2,1,2,medium,1.18,2
+C23,Manufacture of other non-metallic mineral products,252,4.29,3.78,4.86,3,3,3,high,4.17,3
+C24,Manufacture of basic metals,122,2.32,1.92,2.77,2,2,2,high,2.28,2
+C25,"Manufacture of fabricated metal products, except machinery and equipment",432,2.38,2.16,2.61,2,2,2,high,2.36,2
+C26,"Manufacture of computer, electronic and optical products",26,0.39,0.26,0.58,1,1,1,medium,0.44,1
+C27,Manufacture of electrical equipment,42,0.61,0.44,0.82,1,1,1,medium,0.64,1
+C28,Manufacture of machinery and equipment n.e.c.,164,1.06,0.9,1.24,2,1,2,high,1.07,2
+C29,"Manufacture of motor vehicles, trailers and semi-trailers",66,0.48,0.37,0.61,1,1,1,medium,0.5,1
+C30,Manufacture of other transport equipment,57,1.46,1.11,1.9,2,2,2,medium,1.47,2
+C31,Manufacture of furniture,49,1.04,0.77,1.38,2,1,2,medium,1.07,2
+C32,Other manufacturing,29,0.56,0.38,0.81,1,1,1,medium,0.61,1
+C33,Repair and installation of machinery and equipment,216,3.65,3.18,4.17,3,2,3,high,3.56,3
+D35,"Electricity, gas, steam and air conditioning supply",114,1.85,1.53,2.22,2,2,2,high,1.85,2
+E36,"Water collection, treatment and supply",48,2.35,1.73,3.11,2,2,2,medium,2.46,2
+E37,Sewerage,35,4.08,2.84,5.68,3,2,3,medium,4.18,3
+E38,"Waste collection, treatment and disposal activities; materials recovery",347,6.46,5.8,7.18,3,3,3,high,6.44,3
+E39,Remediation activities and other waste management services,10,4.66,2.23,8.58,3,2,3,low,4.81,3
+F41,Construction of buildings,1226,7.58,7.16,8.02,3,3,3,high,7.57,3
+F42,Civil engineering,635,8.76,8.09,9.47,3,3,3,high,8.73,3
+F43,Specialised construction activities,1924,5.16,4.94,5.4,3,3,3,high,5.17,3
+G45,Wholesale and retail trade and repair of motor vehicles and motorcycles,266,1.52,1.34,1.71,2,2,2,high,1.5,2
+G46,"Wholesale trade, except of motor vehicles and motorcycles",722,1.69,1.57,1.82,2,2,2,high,1.69,2
+G47,"Retail trade, except of motor vehicles and motorcycles",411,0.52,0.47,0.57,1,1,1,high,0.52,1
+H49,Land transport and transport via pipelines,2120,7.64,7.31,7.97,3,3,3,high,7.63,3
+H50,Water transport,30,2.67,1.8,3.81,2,2,3,medium,2.83,2
+H51,Air transport,27,1.73,1.14,2.52,2,2,2,medium,1.9,2
+H52,Warehousing and support activities for transportation,329,2.15,1.92,2.39,2,2,2,high,2.16,2
+H53,Postal and courier activities,127,1.65,1.37,1.96,2,2,2,high,1.68,2
+I55,Accommodation,89,0.8,0.64,0.98,1,1,1,medium,0.8,1
+I56,Food and beverage service activities,270,0.73,0.65,0.83,1,1,1,high,0.73,1
+J58,Publishing activities,19,0.52,0.31,0.81,1,1,1,low,0.5,1
+J59,"Motion picture, video and television programme production, sound recording and music publishing activities",12,0.66,0.34,1.15,1,1,2,low,0.58,1
+J60,Programming and broadcasting activities,9,0.69,0.31,1.31,1,1,2,low,0.58,1
+J61,Telecommunications,37,0.94,0.66,1.3,1,1,2,medium,0.84,1
+J62,"Computer programming, consultancy and related activities",59,0.28,0.21,0.36,1,1,1,medium,0.28,1
+J63,Information service activities,17,0.66,0.38,1.05,1,1,2,low,0.6,1
+K64,"Financial service activities, except insurance and pension funding",60,0.4,0.3,0.51,1,1,1,medium,0.39,1
+K65,"Insurance, reinsurance and pension funding, except compulsory social security",15,0.34,0.19,0.57,1,1,1,low,0.35,1
+K66,Activities auxiliary to financial services and insurance activities,15,0.26,0.15,0.43,1,1,1,low,0.28,1
+L68,Real estate activities,77,0.78,0.61,0.97,1,1,1,medium,0.78,1
+M69,Legal and accounting activities,27,0.17,0.11,0.24,1,1,1,medium,0.18,1
+M70,Activities of head offices; management consultancy activities,59,0.46,0.35,0.59,1,1,1,medium,0.46,1
+M71,Architectural and engineering activities; technical testing and analysis,130,0.83,0.69,0.98,1,1,1,high,0.81,1
+M72,Scientific research and development,27,0.51,0.33,0.74,1,1,1,medium,0.5,1
+M73,Advertising and market research,24,0.51,0.33,0.76,1,1,1,medium,0.51,1
+M74,"Other professional, scientific and technical activities",18,0.4,0.24,0.64,1,1,1,low,0.42,1
+M75,Veterinary activities,5,0.43,0.14,1.0,1,1,1,low,0.45,1
+N77,Rental and leasing activities,82,2.7,2.15,3.35,2,2,3,medium,2.64,2
+N78,Employment activities,405,2.54,2.3,2.81,2,2,2,high,2.53,2
+N79,"Travel agency, tour operator and other reservation service and related activities",11,0.53,0.26,0.94,1,1,1,low,0.66,1
+N80,Security and investigation activities,146,2.12,1.79,2.5,2,2,2,high,2.11,2
+N81,Services to buildings and landscape activities,367,1.73,1.56,1.92,2,2,2,high,1.73,2
+N82,"Office administrative, office support and other business support activities",78,0.8,0.63,1.0,1,1,1,medium,0.82,1
+O84,Public administration and defence; compulsory social security,478,0.71,0.65,0.78,1,1,1,high,0.71,1
+P85,Education,131,0.2,0.17,0.23,1,1,1,high,0.2,1
+Q86,Human health activities,261,0.42,0.37,0.47,1,1,1,high,0.42,1
+Q87,Residential care activities,122,0.54,0.45,0.65,1,1,1,high,0.54,1
+Q88,Social work activities without accommodation,145,0.57,0.48,0.67,1,1,1,high,0.57,1
+R90,"Creative, arts and entertainment activities",19,0.58,0.35,0.9,1,1,1,low,0.6,1
+R91,"Libraries, archives, museums and other cultural activities",12,0.57,0.3,1.0,1,1,2,low,0.61,1
+R92,Gambling and betting activities,2,0.12,0.01,0.45,1,1,1,low,0.29,1
+R93,Sports activities and amusement and recreation activities,72,1.04,0.81,1.31,2,1,2,medium,1.02,2
+S94,Activities of membership organisations,60,0.61,0.47,0.79,1,1,1,medium,0.61,1
+S95,Repair of computers and personal and household goods,20,1.3,0.79,2.01,2,1,2,medium,1.08,2
+S96,Other personal service activities,58,0.5,0.38,0.65,1,1,1,medium,0.51,1
+T97,Activities of households as employers of domestic personnel,12,0.15,0.08,0.27,1,1,1,low,0.15,1
+U99,Activities of extraterritorial organisations and bodies,2,0.58,0.06,2.08,1,1,2,low,0.58,1

@@ -11,9 +11,11 @@ from datetime import date
 from pathlib import Path
 
 from experiments import (e1_mapping, e2_visibility, e3_stability, e4_sensitivity, e5_sparse,
+                         e7_register,
                          e6_country_sector)
 
-MODULES = (e1_mapping, e2_visibility, e3_stability, e4_sensitivity, e5_sparse, e6_country_sector)
+MODULES = (e1_mapping, e2_visibility, e3_stability, e4_sensitivity, e5_sparse, e6_country_sector,
+           e7_register)
 OUT = Path(__file__).resolve().parent / "results"
 
 

@@ -140,3 +140,25 @@ Largest differences (cells with at least 20 expected accidents):
 | Ireland | A Agriculture, forestry and fishing | 73 | 32.3 | 2.26 |
 
 - Limit: the recording systems of the countries are different. A part of each difference can come from these systems and not from the real risk.
+
+## E7. A register for one right: health and safety
+
+Event: fatal accident at work. Unit: one worker for one year. Period: 2020-2024, pooled. Area: EU-27. Data: `hsw_n2_02` (Eurostat, updated 2026-10-21, retrieved 2026-11-16). The range is the 95% interval of the count of cases. The grade comes from the number of cases: high from 100, medium from 20, low below 20. The full table for all divisions is in `results/e7_register.csv`.
+
+| Division | Cases | Rate per 100,000 (range) | Point | Point range | Confidence |
+|---|---|---|---|---|---|
+| H49 Land transport and transport via pipelines | 2120 | 7.64 (7.31 to 7.97) | 3 | 3 | high |
+| H52 Warehousing and support activities for transportation | 329 | 2.15 (1.92 to 2.39) | 2 | 2 | high |
+| H53 Postal and courier activities | 127 | 1.65 (1.37 to 1.96) | 2 | 2 | high |
+| C22 Manufacture of rubber and plastic products | 96 | 1.17 (0.94 to 1.42) | 2 | 1 to 2 | medium |
+| C29 Manufacture of motor vehicles, trailers and semi-trailers | 66 | 0.48 (0.37 to 0.61) | 1 | 1 | medium |
+| M70 Activities of head offices; management consultancy activities | 59 | 0.46 (0.35 to 0.59) | 1 | 1 | medium |
+| B07 Mining of metal ores | 24 | 11.37 (7.29 to 16.92) | 4 | 3 to 4 | medium |
+| F43 Specialised construction activities | 1924 | 5.16 (4.94 to 5.40) | 3 | 3 | high |
+| C15 Manufacture of leather and related products | 15 | 0.75 (0.42 to 1.24) | 1 | 1 to 2 | low |
+
+- 87 divisions: 32 with high, 33 with medium and 22 with low confidence.
+
+- For 62 of 87 divisions the range stays in one point. For 0 divisions the range covers three or more points.
+
+- Limit: this register is for one right, for fatal events, for work in the EU. It shows the format of a register entry. It is not a register for global supply chains.

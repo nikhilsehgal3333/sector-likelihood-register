@@ -1,9 +1,11 @@
 # Sector likelihood register: what does a 1-10 "probability" mean?
 
-**Status: working draft, version 0.3 (16 November 2026).**
+**Status: working draft, version 0.4 (16 November 2026).**
 
 This is an independent study by Nikhil Sehgal. It is not a product of Catena-X, BMW Group or Ulm
 University, and it uses public data only.
+
+Results page: built from the result files by `site/build.py` (folder `site/`).
 
 ## The problem
 
@@ -46,6 +48,7 @@ All numbers are in [`results/RESULTS.md`](results/RESULTS.md). The scripts write
 | 1 Method | E4 sensitivity | With three time windows and three positions of the scale limits, 74 of 88 divisions change their point by 1 or 2. |
 | 2 Data gaps | E2 visibility | In 2022 the recorded non-fatal accidents per fatal accident run from 25 (Bulgaria) to 3,410 (Netherlands). The rank correlation between the non-fatal and the fatal rate across 30 countries is -0.04. |
 | 2 Data gaps | E5 sparse divisions | In one year, 24 of 87 divisions have fewer than 5 fatal accidents and 4 have none. All 4 have accidents in the next two years. A pull toward the rate of the NACE section lowers the number of wrong points from 17 to 11 with one year of data, and from 10 to 8 with three years. With three years the rank correlation does not improve (0.867 raw, 0.848 with the pull). |
+| Result | E7 register for one right | A register for health and safety with 87 NACE divisions. Each entry has a point, a range and a confidence grade: 32 divisions with high, 33 with medium and 22 with low confidence. For 62 of 87 divisions the range stays in one point. |
 | 4 Integration | E6 country and sector | Across 455 country-sector cells, sector alone explains 67% of the deviance, country alone 24%, and country factor times sector factor 90%. Real differences remain: 27% of the large cells get a different point from the factor model than from their own rate. |
 | 4 Integration | E1 company size | For land transport, the probability of at least one fatal accident per year is 0.37% for 50 workers and 31% for 5,000 workers. Company size must enter one time only. |
 
