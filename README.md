@@ -1,6 +1,6 @@
 # Sector likelihood register: what does a 1-10 "probability" mean?
 
-**Status: working draft, version 0.1 (16 November 2026).**
+**Status: working draft, version 0.2 (16 November 2026).**
 
 This is an independent study by Nikhil Sehgal. It is not a product of Catena-X, BMW Group or Ulm
 University, and it uses public data only.
@@ -17,27 +17,48 @@ risk mentions "reflects visibility rather than probability". That leaves a measu
 open: before a register can estimate a likelihood, it must say what the likelihood is a likelihood
 of, and how a point from 1 to 10 follows from it.
 
-This repository tests that question on the one protected right for which public rates per NACE
-division exist: occupational health and safety (Eurostat accidents at work).
+## The four questions
 
-## What the code shows
+This study assumes that a sector register which continues the published work must answer four
+questions. The assumption is the reading of the author from public documents (the [DDC KIT][kit]
+and Weber 2026). Nobody at Catena-X, BMW Group or Ulm University confirmed it.
+
+1. **Method.** Which rule gives each NACE division a likelihood for one protected right, so that
+   another person can get the same result?
+2. **Data gaps.** How does the register score a sector with few or no documented cases, without
+   reading silence as low risk?
+3. **AI.** Where can AI collect and code the evidence without loss of traceability?
+4. **Integration.** How does the sector score combine with the country register and the company
+   size?
+
+The code tests questions 1, 2 and 4 on the one protected right for which public rates per NACE
+division exist: occupational health and safety (Eurostat accidents at work). Question 3 has no code
+yet.
+
+## Results
 
 All numbers are in [`results/RESULTS.md`](results/RESULTS.md). The scripts write that file.
 
-| Experiment | Question | Result on Eurostat data |
+| Question | Experiment | Result on Eurostat data |
 |---|---|---|
-| E1 mapping | Does the 1-10 point depend on the mapping rule? | Yes. The same 2024 fatal accident rates give land transport, rubber and consulting 3/2/1 on a fixed logarithmic scale, 10/6/2 as deciles and 1/1/1 on a linear scale. The order of the sectors stays the same. |
-| E2 visibility | Do recorded cases measure occurrence? | Not reliably. In 2022 the recorded non-fatal accidents per fatal accident run from 25 (Bulgaria) to 3,410 (Netherlands). The rank correlation between the non-fatal and the fatal rate across 30 countries is -0.04. |
-| E3 stability | Does a score built on past years rank later years? | A score from the 2020-2022 mean ranks the 2023-2024 rates with a Spearman correlation of 0.872 (0.819 from 2022 alone). 11% of divisions change their point on the fixed log scale. 47% change their decile. |
-| E4 sensitivity | How far does a point move with the choices of the analyst? | With three time windows and three positions of the scale limits, 74 of 88 divisions change their point by 1 or 2. |
+| 1 Method | E1 mapping rule | The same 2024 fatal accident rates give land transport, rubber and consulting 3/2/1 on a fixed logarithmic scale, 10/6/2 as deciles and 1/1/1 on a linear scale. The order of the sectors stays the same. |
+| 1 Method | E3 stability | A score from the 2020-2022 mean ranks the 2023-2024 rates with a Spearman correlation of 0.872 (0.819 from 2022 alone). 11% of divisions change their point on the fixed log scale. 47% change their decile. |
+| 1 Method | E4 sensitivity | With three time windows and three positions of the scale limits, 74 of 88 divisions change their point by 1 or 2. |
+| 2 Data gaps | E2 visibility | In 2022 the recorded non-fatal accidents per fatal accident run from 25 (Bulgaria) to 3,410 (Netherlands). The rank correlation between the non-fatal and the fatal rate across 30 countries is -0.04. |
+| 2 Data gaps | E5 sparse divisions | In one year, 24 of 87 divisions have fewer than 5 fatal accidents and 4 have none. All 4 have accidents in the next two years. A pull toward the rate of the NACE section lowers the number of wrong points from 17 to 11 with one year of data, and from 10 to 8 with three years. With three years the rank correlation does not improve (0.867 raw, 0.848 with the pull). |
+| 4 Integration | E6 country and sector | Across 455 country-sector cells, sector alone explains 67% of the deviance, country alone 24%, and country factor times sector factor 90%. Real differences remain: 27% of the large cells get a different point from the factor model than from their own rate. |
+| 4 Integration | E1 company size | For land transport, the probability of at least one fatal accident per year is 0.37% for 50 workers and 31% for 5,000 workers. Company size must enter one time only. |
 
 Reading of the results (analysis of the author, not a proven finding):
 
 1. A point from 1 to 10 has a meaning only if the register publishes the event, the unit, the
-   period and the mapping rule.
-2. A relative scale (deciles) changes when other sectors change. A fixed scale does not.
-3. Counts of recorded or reported cases need a correction for the reporting system before they can
-   be read as likelihood.
+   period and the mapping rule. A relative scale (deciles) changes when other sectors change. A
+   fixed scale does not.
+2. A count of recorded cases is not a likelihood. It needs a correction for the recording system,
+   and no recorded case in a small sector does not mean no risk.
+3. For sectors with few cases, information from similar sectors helps most when the data are thin.
+4. Country factor times sector factor is a useful first model. It is not sufficient for all
+   country-sector pairs, so a register needs a rule for exceptions.
 
 ## The scale used here
 

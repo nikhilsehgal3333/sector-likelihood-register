@@ -1,0 +1,175 @@
+base,nace,label,base_cases,raw_per_100k,shrunk_per_100k,test_per_100k,raw_point,shrunk_point,test_point
+2022 alone,A01,"Crop and animal production, hunting and related service activities",263.0,4.16,4.17,4.65,3,3,3
+2022 alone,A02,Forestry and logging,86.0,15.64,14.56,18.07,4,4,4
+2022 alone,A03,Fishing and aquaculture,40.0,30.34,22.1,13.41,4,4,4
+2022 alone,B05,Mining of coal and lignite,20.0,18.25,16.26,10.12,4,4,4
+2022 alone,B06,Extraction of crude petroleum and natural gas,1.0,2.9,6.61,0.0,2,3,1
+2022 alone,B07,Mining of metal ores,6.0,16.41,13.32,11.39,4,4,4
+2022 alone,B08,Other mining and quarrying,16.0,8.0,8.33,12.25,3,3,4
+2022 alone,B09,Mining support service activities,1.0,1.93,5.3,4.7,2,3,3
+2022 alone,C10,Manufacture of food products,69.0,1.68,1.68,1.68,2,2,2
+2022 alone,C11,Manufacture of beverages,11.0,2.52,2.22,1.03,2,2,2
+2022 alone,C12,Manufacture of tobacco products,0.0,0.0,1.39,1.24,1,2,2
+2022 alone,C13,Manufacture of textiles,4.0,0.75,1.01,1.59,1,2,2
+2022 alone,C14,Manufacture of wearing apparel,0.0,0.0,0.39,0.36,1,1,1
+2022 alone,C15,Manufacture of leather and related products,4.0,1.02,1.25,0.0,2,2,1
+2022 alone,C16,"Manufacture of wood and of products of wood and cork, except furniture; manufacture of articles of straw and plaiting materials",40.0,4.21,3.72,3.67,3,3,3
+2022 alone,C17,Manufacture of paper and paper products,5.0,0.81,1.03,1.42,1,2,2
+2022 alone,C18,Printing and reproduction of recorded media,3.0,0.5,0.81,0.26,1,1,1
+2022 alone,C19,Manufacture of coke and refined petroleum products,3.0,2.79,2.02,3.74,2,2,3
+2022 alone,C20,Manufacture of chemicals and chemical products,23.0,1.89,1.85,1.47,2,2,2
+2022 alone,C21,Manufacture of basic pharmaceutical products and pharmaceutical preparations,8.0,1.02,1.16,0.29,2,2,1
+2022 alone,C22,Manufacture of rubber and plastic products,19.0,1.16,1.22,1.18,2,2,2
+2022 alone,C23,Manufacture of other non-metallic mineral products,63.0,5.29,4.72,3.8,3,3,3
+2022 alone,C24,Manufacture of basic metals,27.0,2.64,2.46,1.84,2,2,2
+2022 alone,C25,"Manufacture of fabricated metal products, except machinery and equipment",78.0,2.14,2.11,2.41,2,2,2
+2022 alone,C26,"Manufacture of computer, electronic and optical products",3.0,0.23,0.44,0.34,1,1,1
+2022 alone,C27,Manufacture of electrical equipment,9.0,0.66,0.8,0.62,1,1,1
+2022 alone,C28,Manufacture of machinery and equipment n.e.c.,36.0,1.18,1.21,0.92,2,2,1
+2022 alone,C29,"Manufacture of motor vehicles, trailers and semi-trailers",17.0,0.63,0.71,0.46,1,1,1
+2022 alone,C30,Manufacture of other transport equipment,13.0,1.71,1.69,1.57,2,2,2
+2022 alone,C31,Manufacture of furniture,17.0,1.77,1.75,0.81,2,2,1
+2022 alone,C32,Other manufacturing,5.0,0.51,0.72,0.56,1,1,1
+2022 alone,C33,Repair and installation of machinery and equipment,41.0,3.47,3.18,3.73,3,2,3
+2022 alone,D35,"Electricity, gas, steam and air conditioning supply",16.0,1.34,1.34,2.05,2,2,2
+2022 alone,E36,"Water collection, treatment and supply",8.0,2.0,2.36,2.67,2,2,2
+2022 alone,E37,Sewerage,6.0,3.66,3.75,5.3,3,3,3
+2022 alone,E38,"Waste collection, treatment and disposal activities; materials recovery",50.0,4.64,4.58,6.33,3,3,3
+2022 alone,E39,Remediation activities and other waste management services,2.0,4.52,4.11,4.25,3,3,3
+2022 alone,F41,Construction of buildings,259.0,7.89,7.86,7.03,3,3,3
+2022 alone,F42,Civil engineering,107.0,7.44,7.39,9.22,3,3,3
+2022 alone,F43,Specialised construction activities,388.0,5.12,5.13,5.35,3,3,3
+2022 alone,G45,Wholesale and retail trade and repair of motor vehicles and motorcycles,49.0,1.44,1.39,1.47,2,2,2
+2022 alone,G46,"Wholesale trade, except of motor vehicles and motorcycles",158.0,1.84,1.8,1.59,2,2,2
+2022 alone,G47,"Retail trade, except of motor vehicles and motorcycles",65.0,0.41,0.42,0.45,1,1,1
+2022 alone,H49,Land transport and transport via pipelines,415.0,7.37,7.34,7.57,3,3,3
+2022 alone,H50,Water transport,4.0,1.95,2.72,2.76,2,2,2
+2022 alone,H51,Air transport,6.0,2.13,2.7,1.7,2,2,2
+2022 alone,H52,Warehousing and support activities for transportation,62.0,2.04,2.11,2.25,2,2,2
+2022 alone,H53,Postal and courier activities,28.0,1.77,1.91,1.27,2,2,2
+2022 alone,I55,Accommodation,17.0,0.76,0.77,0.85,1,1,1
+2022 alone,I56,Food and beverage service activities,64.0,0.84,0.84,0.66,1,1,1
+2022 alone,J58,Publishing activities,7.0,0.95,0.7,0.4,1,1,1
+2022 alone,J59,"Motion picture, video and television programme production, sound recording and music publishing activities",2.0,0.53,0.49,0.66,1,1,1
+2022 alone,J60,Programming and broadcasting activities,1.0,0.39,0.45,0.76,1,1,1
+2022 alone,J61,Telecommunications,11.0,1.39,0.93,0.97,2,1,1
+2022 alone,J62,"Computer programming, consultancy and related activities",7.0,0.16,0.21,0.31,1,1,1
+2022 alone,J63,Information service activities,5.0,1.01,0.68,0.73,2,1,1
+2022 alone,K64,"Financial service activities, except insurance and pension funding",14.0,0.48,0.44,0.37,1,1,1
+2022 alone,K65,"Insurance, reinsurance and pension funding, except compulsory social security",1.0,0.12,0.25,0.34,1,1,1
+2022 alone,K66,Activities auxiliary to financial services and insurance activities,2.0,0.17,0.25,0.32,1,1,1
+2022 alone,L68,Real estate activities,13.0,0.63,0.63,0.83,1,1,1
+2022 alone,M69,Legal and accounting activities,5.0,0.15,0.21,0.12,1,1,1
+2022 alone,M70,Activities of head offices; management consultancy activities,14.0,0.54,0.53,0.33,1,1,1
+2022 alone,M71,Architectural and engineering activities; technical testing and analysis,29.0,0.93,0.85,0.84,1,1,1
+2022 alone,M72,Scientific research and development,4.0,0.38,0.43,0.67,1,1,1
+2022 alone,M73,Advertising and market research,7.0,0.73,0.63,0.3,1,1,1
+2022 alone,M74,"Other professional, scientific and technical activities",2.0,0.22,0.34,0.52,1,1,1
+2022 alone,M75,Veterinary activities,0.0,0.0,0.38,0.6,1,1,1
+2022 alone,N77,Rental and leasing activities,23.0,3.79,3.27,2.59,3,2,2
+2022 alone,N78,Employment activities,74.0,2.21,2.18,2.68,2,2,2
+2022 alone,N79,"Travel agency, tour operator and other reservation service and related activities",1.0,0.25,0.76,0.92,1,1,1
+2022 alone,N80,Security and investigation activities,28.0,1.91,1.89,2.2,2,2,2
+2022 alone,N81,Services to buildings and landscape activities,70.0,1.6,1.61,1.53,2,2,2
+2022 alone,N82,"Office administrative, office support and other business support activities",18.0,0.9,0.98,0.75,1,1,1
+2022 alone,O84,Public administration and defence; compulsory social security,95.0,0.71,0.71,0.55,1,1,1
+2022 alone,P85,Education,31.0,0.24,0.24,0.24,1,1,1
+2022 alone,Q86,Human health activities,29.0,0.23,0.24,0.24,1,1,1
+2022 alone,Q87,Residential care activities,19.0,0.42,0.41,0.54,1,1,1
+2022 alone,Q88,Social work activities without accommodation,31.0,0.61,0.57,0.54,1,1,1
+2022 alone,R90,"Creative, arts and entertainment activities",3.0,0.45,0.62,0.57,1,1,1
+2022 alone,R91,"Libraries, archives, museums and other cultural activities",5.0,1.18,1.03,0.58,2,2,1
+2022 alone,R92,Gambling and betting activities,2.0,0.62,0.77,0.0,1,1,1
+2022 alone,R93,Sports activities and amusement and recreation activities,15.0,1.06,1.02,1.31,2,2,2
+2022 alone,S94,Activities of membership organisations,13.0,0.66,0.67,0.78,1,1,1
+2022 alone,S95,Repair of computers and personal and household goods,1.0,0.31,0.55,1.86,1,1,2
+2022 alone,S96,Other personal service activities,19.0,0.8,0.78,0.33,1,1,1
+2022 alone,T97,Activities of households as employers of domestic personnel,0.0,0.0,0.0,0.25,1,1,1
+2022 alone,U99,Activities of extraterritorial organisations and bodies,1.0,1.39,1.39,0.73,2,2,1
+2020-2022,A01,"Crop and animal production, hunting and related service activities",809.0,4.17,4.17,4.65,3,3,3
+2020-2022,A02,Forestry and logging,256.0,18.16,17.49,18.07,4,4,4
+2020-2022,A03,Fishing and aquaculture,73.0,19.72,17.22,13.41,4,4,4
+2020-2022,B05,Mining of coal and lignite,34.0,9.73,9.71,10.12,3,3,4
+2020-2022,B06,Extraction of crude petroleum and natural gas,1.0,0.97,3.53,0.0,1,3,1
+2020-2022,B07,Mining of metal ores,16.0,11.37,10.93,11.39,4,4,4
+2020-2022,B08,Other mining and quarrying,74.0,12.37,12.17,12.25,4,4,4
+2020-2022,B09,Mining support service activities,3.0,1.99,3.7,4.7,2,3,3
+2020-2022,C10,Manufacture of food products,206.0,1.68,1.68,1.68,2,2,2
+2020-2022,C11,Manufacture of beverages,24.0,1.89,1.84,1.03,2,2,2
+2020-2022,C12,Manufacture of tobacco products,0.0,0.0,1.1,1.24,1,2,2
+2020-2022,C13,Manufacture of textiles,22.0,1.32,1.36,1.59,2,2,2
+2020-2022,C14,Manufacture of wearing apparel,5.0,0.23,0.37,0.36,1,1,1
+2020-2022,C15,Manufacture of leather and related products,15.0,1.25,1.32,0.0,2,2,1
+2020-2022,C16,"Manufacture of wood and of products of wood and cork, except furniture; manufacture of articles of straw and plaiting materials",124.0,4.43,4.19,3.67,3,3,3
+2020-2022,C17,Manufacture of paper and paper products,21.0,1.12,1.18,1.42,2,2,2
+2020-2022,C18,Printing and reproduction of recorded media,16.0,0.88,0.97,0.26,1,1,1
+2020-2022,C19,Manufacture of coke and refined petroleum products,7.0,1.93,1.8,3.74,2,2,3
+2020-2022,C20,Manufacture of chemicals and chemical products,58.0,1.57,1.58,1.47,2,2,2
+2020-2022,C21,Manufacture of basic pharmaceutical products and pharmaceutical preparations,18.0,0.78,0.86,0.29,1,1,1
+2020-2022,C22,Manufacture of rubber and plastic products,57.0,1.15,1.18,1.18,2,2,2
+2020-2022,C23,Manufacture of other non-metallic mineral products,164.0,4.62,4.41,3.8,3,3,3
+2020-2022,C24,Manufacture of basic metals,83.0,2.64,2.56,1.84,2,2,2
+2020-2022,C25,"Manufacture of fabricated metal products, except machinery and equipment",255.0,2.35,2.33,2.41,2,2,2
+2020-2022,C26,"Manufacture of computer, electronic and optical products",17.0,0.44,0.51,0.34,1,1,1
+2020-2022,C27,Manufacture of electrical equipment,25.0,0.6,0.66,0.62,1,1,1
+2020-2022,C28,Manufacture of machinery and equipment n.e.c.,107.0,1.15,1.17,0.92,2,2,1
+2020-2022,C29,"Manufacture of motor vehicles, trailers and semi-trailers",41.0,0.5,0.53,0.46,1,1,1
+2020-2022,C30,Manufacture of other transport equipment,31.0,1.38,1.41,1.57,2,2,2
+2020-2022,C31,Manufacture of furniture,34.0,1.18,1.22,0.81,2,2,1
+2020-2022,C32,Other manufacturing,17.0,0.56,0.64,0.56,1,1,1
+2020-2022,C33,Repair and installation of machinery and equipment,124.0,3.59,3.46,3.73,3,3,3
+2020-2022,D35,"Electricity, gas, steam and air conditioning supply",60.0,1.7,1.7,2.05,2,2,2
+2020-2022,E36,"Water collection, treatment and supply",26.0,2.13,2.32,2.67,2,2,2
+2020-2022,E37,Sewerage,16.0,3.21,3.48,5.3,2,3,3
+2020-2022,E38,"Waste collection, treatment and disposal activities; materials recovery",206.0,6.56,6.52,6.33,3,3,3
+2020-2022,E39,Remediation activities and other waste management services,6.0,4.98,5.03,4.25,3,3,3
+2020-2022,F41,Construction of buildings,759.0,7.97,7.95,7.03,3,3,3
+2020-2022,F42,Civil engineering,359.0,8.43,8.4,9.22,3,3,3
+2020-2022,F43,Specialised construction activities,1087.0,5.03,5.03,5.35,3,3,3
+2020-2022,G45,Wholesale and retail trade and repair of motor vehicles and motorcycles,161.0,1.55,1.53,1.47,2,2,2
+2020-2022,G46,"Wholesale trade, except of motor vehicles and motorcycles",448.0,1.77,1.76,1.59,2,2,2
+2020-2022,G47,"Retail trade, except of motor vehicles and motorcycles",268.0,0.57,0.58,0.45,1,1,1
+2020-2022,H49,Land transport and transport via pipelines,1245.0,7.68,7.67,7.57,3,3,3
+2020-2022,H50,Water transport,17.0,2.6,2.87,2.76,2,2,2
+2020-2022,H51,Air transport,16.0,1.76,2.03,1.7,2,2,2
+2020-2022,H52,Warehousing and support activities for transportation,184.0,2.07,2.1,2.25,2,2,2
+2020-2022,H53,Postal and courier activities,88.0,1.9,1.95,1.27,2,2,2
+2020-2022,I55,Accommodation,46.0,0.75,0.76,0.85,1,1,1
+2020-2022,I56,Food and beverage service activities,163.0,0.8,0.8,0.66,1,1,1
+2020-2022,J58,Publishing activities,13.0,0.6,0.55,0.4,1,1,1
+2020-2022,J59,"Motion picture, video and television programme production, sound recording and music publishing activities",7.0,0.65,0.55,0.66,1,1,1
+2020-2022,J60,Programming and broadcasting activities,5.0,0.64,0.53,0.76,1,1,1
+2020-2022,J61,Telecommunications,22.0,0.92,0.78,0.97,1,1,1
+2020-2022,J62,"Computer programming, consultancy and related activities",30.0,0.25,0.27,0.31,1,1,1
+2020-2022,J63,Information service activities,9.0,0.6,0.54,0.73,1,1,1
+2020-2022,K64,"Financial service activities, except insurance and pension funding",38.0,0.41,0.41,0.37,1,1,1
+2020-2022,K65,"Insurance, reinsurance and pension funding, except compulsory social security",9.0,0.34,0.35,0.34,1,1,1
+2020-2022,K66,Activities auxiliary to financial services and insurance activities,7.0,0.22,0.25,0.32,1,1,1
+2020-2022,L68,Real estate activities,42.0,0.74,0.74,0.83,1,1,1
+2020-2022,M69,Legal and accounting activities,19.0,0.2,0.23,0.12,1,1,1
+2020-2022,M70,Activities of head offices; management consultancy activities,40.0,0.56,0.55,0.33,1,1,1
+2020-2022,M71,Architectural and engineering activities; technical testing and analysis,75.0,0.82,0.79,0.84,1,1,1
+2020-2022,M72,Scientific research and development,12.0,0.39,0.41,0.67,1,1,1
+2020-2022,M73,Advertising and market research,18.0,0.67,0.63,0.3,1,1,1
+2020-2022,M74,"Other professional, scientific and technical activities",8.0,0.32,0.36,0.52,1,1,1
+2020-2022,M75,Veterinary activities,2.0,0.3,0.41,0.6,1,1,1
+2020-2022,N77,Rental and leasing activities,48.0,2.78,2.68,2.59,2,2,2
+2020-2022,N78,Employment activities,231.0,2.45,2.44,2.68,2,2,2
+2020-2022,N79,"Travel agency, tour operator and other reservation service and related activities",3.0,0.24,0.5,0.92,1,1,1
+2020-2022,N80,Security and investigation activities,84.0,2.07,2.06,2.2,2,2,2
+2020-2022,N81,Services to buildings and landscape activities,228.0,1.88,1.88,1.53,2,2,2
+2020-2022,N82,"Office administrative, office support and other business support activities",47.0,0.84,0.88,0.75,1,1,1
+2020-2022,O84,Public administration and defence; compulsory social security,327.0,0.83,0.83,0.55,1,1,1
+2020-2022,P85,Education,67.0,0.17,0.17,0.24,1,1,1
+2020-2022,Q86,Human health activities,199.0,0.54,0.54,0.24,1,1,1
+2020-2022,Q87,Residential care activities,72.0,0.54,0.54,0.54,1,1,1
+2020-2022,Q88,Social work activities without accommodation,87.0,0.59,0.58,0.54,1,1,1
+2020-2022,R90,"Creative, arts and entertainment activities",11.0,0.58,0.6,0.57,1,1,1
+2020-2022,R91,"Libraries, archives, museums and other cultural activities",7.0,0.57,0.6,0.58,1,1,1
+2020-2022,R92,Gambling and betting activities,2.0,0.21,0.38,0.0,1,1,1
+2020-2022,R93,Sports activities and amusement and recreation activities,31.0,0.81,0.79,1.31,1,1,2
+2020-2022,S94,Activities of membership organisations,29.0,0.5,0.51,0.78,1,1,1
+2020-2022,S95,Repair of computers and personal and household goods,9.0,0.95,0.79,1.86,1,1,2
+2020-2022,S96,Other personal service activities,42.0,0.62,0.62,0.33,1,1,1
+2020-2022,T97,Activities of households as employers of domestic personnel,4.0,0.09,0.09,0.25,1,1,1
+2020-2022,U99,Activities of extraterritorial organisations and bodies,1.0,0.47,0.47,0.73,1,1,1

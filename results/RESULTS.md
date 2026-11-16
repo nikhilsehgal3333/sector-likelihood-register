@@ -97,3 +97,46 @@ Point range of each division across all combinations:
 | 0 | 14 of 88 |
 | 1 | 60 of 88 |
 | 2 | 14 of 88 |
+
+## E5. Divisions with few or no recorded cases
+
+Data: number and rate of fatal accidents at work, EU-27, NACE divisions (`hsw_n2_02`; Eurostat, updated 2026-10-21, retrieved 2026-11-16). Person-years are derived as number / rate. Each estimate is built on a base window and compared with the observed 2023-2024 rate. Raw is the recorded rate of the division. Shrunk pulls that rate toward the rate of its NACE section.
+
+| Base window | Divisions | Fewer than 5 cases per year | Zero cases (of these, cases later) | Spearman with later rate: raw / shrunk | Mean absolute error per 100,000: raw / shrunk | Same error, divisions with fewer than 5 cases per year | Wrong log-scale point: raw / shrunk |
+|---|---|---|---|---|---|---|---|
+| 2022 alone | 87 | 24 | 4 (4) | 0.811 / 0.830 | 0.91 / 0.72 | 0.73 / 0.68 | 17 / 11 |
+| 2020-2022 | 87 | 22 | 1 (1) | 0.867 / 0.848 | 0.42 / 0.40 | 0.51 / 0.50 | 10 / 8 |
+
+- 2022 alone: estimated prior strength a = 3.6. A division with fewer expected cases than a takes more than half of its score from its section.
+- 2020-2022: estimated prior strength a = 4.2. A division with fewer expected cases than a takes more than half of its score from its section.
+
+- Limit: the section rate is a good substitute only if the divisions of one section are similar. A division that is alone in its section keeps its raw rate.
+
+## E6. Does country factor times sector factor work?
+
+Data: fatal accidents at work 2020-2024 by country and NACE section (`hsw_n2_02`; Eurostat, updated 2026-10-21, retrieved 2026-11-16): 455 country-sector cells, 29 countries, 19 sections, 16,782 fatal accidents. 115 cells without any recorded accident since 2020 have no derivable person-years and are left out.
+
+| Model | Deviance | Share of the null deviance explained |
+|---|---|---|
+| Sector only | 7,419 | 67% |
+| Country only | 17,344 | 24% |
+| Country factor x sector factor | 2,244 | 90% |
+
+- Null deviance (one rate for all cells): 22,698. Residual deviance of the factor model: 2,244 on 408 degrees of freedom, a ratio of 5.5. A ratio of 1 means that only chance is left. A larger ratio means that real country-sector differences remain.
+
+- In the 140 cells with at least 20 expected accidents, 96 (69%) have an observed count between 0.67 and 1.5 times the model value. 38 (27%) get a different log-scale point from the model than from their own rate.
+
+Largest differences (cells with at least 20 expected accidents):
+
+| Country | Section | Observed | Model | Observed / model |
+|---|---|---|---|---|
+| Norway | B Mining and quarrying | 1 | 20.5 | 0.05 |
+| Greece | A Agriculture, forestry and fishing | 11 | 74.8 | 0.15 |
+| Portugal | Q Human health and social work activities | 5 | 20.7 | 0.24 |
+| Ireland | H Transportation and storage | 9 | 23.9 | 0.38 |
+| Greece | F Construction | 64 | 25.2 | 2.54 |
+| Austria | A Agriculture, forestry and fishing | 246 | 106.0 | 2.32 |
+| Czechia | N Administrative and support service activities | 10 | 22.8 | 0.44 |
+| Ireland | A Agriculture, forestry and fishing | 73 | 32.3 | 2.26 |
+
+- Limit: the recording systems of the countries are different. A part of each difference can come from these systems and not from the real risk.
