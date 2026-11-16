@@ -5,7 +5,8 @@
 This is an independent study by Nikhil Sehgal. It is not a product of Catena-X, BMW Group or Ulm
 University, and it uses public data only.
 
-Results page: built from the result files by `site/build.py` (folder `site/`).
+Results page: https://sector-likelihood-register.vercel.app (built from the result files by
+`site/build.py`, folder `site/`).
 
 ## The problem
 
